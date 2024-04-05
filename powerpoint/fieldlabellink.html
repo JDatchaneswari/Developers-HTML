@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Contact form </title>
+</head>
+<body>
+	<h1>Contact Form </h1>
+	<form method="GET">
+		<p>Name: <br>
+			<label for="you_name">Name:</label>
+			<input type="text" name="you_name" id="you_name">
+		</p>
+		<p>Email ID:<br>
+			<label for="email_id">Email ID:</label>
+			<input type="text" name="email_id" id="email_id">
+		</p>
+		<p>Subject:<br>
+			<input type="text" name="subject_name" id="subject_name"><label for="subject_name">Subject:</label>
+		</p>
+		 <p> is this a <br>
+        	<input type="radio" name="request_type" value="sales" checked="checked" >Sales request?
+        	<input type="radio" name="request_type" value="support">Support request
+        </p>
+        <p> 
+        	i want to first learn <br>
+        	<input type="radio" name="learn_type" id="html"value="html" checked="checked"><label for="html">HTML</label>
+            <input type="radio" name="learn_type" id="css"value="css"><label for="css">CSS</label>
+            <input type="radio" name="learn_type" id="js"  value="js"><label for="js">JS</label>
+        </p>
+        
+		<p>Message:<br>
+			<label for="message">Message:</label>
+			<textarea name="message" id="message" cols=25 rows=5 placeholder="Enter your Message"></textarea>
+		</p>
+        <p>
+			<input type="submit" value="send message" name="contact_form">
+        </p>
+    </form>
+</body>
+</html>
